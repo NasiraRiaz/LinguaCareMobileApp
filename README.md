@@ -41,7 +41,6 @@ This week focused on setting up the foundational development environment, initia
 Here's a visual representation of the LinguaCare AI app's user interface after the completion of Week 1:
 
 ![LinguaCare AI Week 1 UI](screenshots/week1_ui.png)
-*(Self-note: Ensure you have a file named `week1_ui.png` inside a folder named `screenshots` in your project root for this to display correctly on GitHub.)*
 
 ---
 
@@ -59,9 +58,8 @@ To set up and run the LinguaCare AI mobile application on your local development
 
 1.  **Clone the repository:** Open your terminal or command prompt and execute:
     ```bash
-    git clone https://github.com/YOUR_GITHUB_USERNAME/LinguaCareMobileApp.git
+    git clone https://github.com/NasiraRiaz/LinguaCareMobileApp.git
     ```
-    *(Replace `YOUR_GITHUB_USERNAME` with the actual GitHub username where this repository is hosted).*
 
 2.  **Navigate into the project directory:**
     ```bash
@@ -77,7 +75,7 @@ To set up and run the LinguaCare AI mobile application on your local development
     ```bash
     npm start
     # or alternatively
-    # expo start
+    # npx expo start
     ```
     This will open the Expo Dev Tools in your browser and display a QR code in the terminal.
 
@@ -90,17 +88,17 @@ To set up and run the LinguaCare AI mobile application on your local development
 
 ## 5. Project Structure (Relevant for Week 1)
 LinguaCareMobileApp/
-   ├── app/
-   │ └── index.tsx # Main application UI and logic for symptom input screen.
-   ├── node_modules/ # Installed JavaScript packages.
-   ├── screenshots/ # Directory for project screenshots and visual assets.
-   │ └── week1_ui.png # Screenshot of the Week 1 UI.
-   ├── .gitignore # Specifies intentionally untracked files to ignore by Git.
-   ├── app.json # Expo configuration file for the app.
-   ├── babel.config.js # Babel configuration for JavaScript transpilation.
-   ├── package.json # Lists project dependencies and scripts.
-   ├── README.md # This file, providing project overview and instructions.
-   └── ... (other Expo-generated files)
+├── app/
+│   └── index.tsx # Main application UI and logic for symptom input screen.
+├── node_modules/ # Installed JavaScript packages.
+├── screenshots/ # Directory for project screenshots and visual assets.
+│   └── week1_ui.png # Screenshot of the Week 1 UI.
+├── .gitignore # Specifies intentionally untracked files to ignore by Git.
+├── app.json # Expo configuration file for the app.
+├── babel.config.js # Babel configuration for JavaScript transpilation.
+├── package.json # Lists project dependencies and scripts.
+├── README.md # This file, providing project overview and instructions.
+└── ... (other Expo-generated files)
 ---
 
 ## 6. Future Work (Week 2 Onwards)
