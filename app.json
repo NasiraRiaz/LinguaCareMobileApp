@@ -6,6 +6,9 @@
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "linguacaremobileapp",
+    "host": {
+      "hostType": "tunnel"
+    },
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
